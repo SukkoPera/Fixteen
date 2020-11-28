@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DT1042
+D 4 CHANNEL LOW CAPACITANCE TVS DIODE ARRAY
+K tvs array esd protection
+F https://docs.rs-online.com/ed8a/0900766b814b91d1.pdf
+$ENDCMP
+#
+#End Doc Library

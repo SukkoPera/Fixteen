@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name MOS_7360_TED)(type Legacy)(uri ${KIPRJMOD}/lib/MOS_7360_TED.lib)(options "")(descr ""))
+  (lib (name DT1042)(type Legacy)(uri ${KIPRJMOD}/lib/DT1042.lib)(options "")(descr ""))
 )
