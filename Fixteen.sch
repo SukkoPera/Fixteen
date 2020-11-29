@@ -3,671 +3,466 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Fixteen"
-Date "2019-11-24"
-Rev "1git"
+Date "2020-11-29"
+Rev "2git"
 Comp "SukkoPera"
 Comment1 "Licensed under CERN OHL v.1.2"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L 74xx:74LS253 U2
-U 1 1 5DD79DEC
-P 9075 3335
-F 0 "U2" H 9310 4185 50  0000 C CNN
-F 1 "74LS253" H 9320 2370 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9075 3335 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS253" H 9075 3335 50  0001 C CNN
-	1    9075 3335
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR05
-U 1 1 5DD7AD63
-P 9075 2080
-F 0 "#PWR05" H 9075 1930 50  0001 C CNN
-F 1 "VCC" H 9092 2253 50  0000 C CNN
-F 2 "" H 9075 2080 50  0001 C CNN
-F 3 "" H 9075 2080 50  0001 C CNN
-	1    9075 2080
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 5DD7B925
-P 9075 4575
-F 0 "#PWR06" H 9075 4325 50  0001 C CNN
-F 1 "GND" H 9080 4402 50  0000 C CNN
-F 2 "" H 9075 4575 50  0001 C CNN
-F 3 "" H 9075 4575 50  0001 C CNN
-	1    9075 4575
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	9075 4575 9075 4500
+	3615 2115 3255 2115
 Wire Wire Line
-	9075 2080 9075 2200
+	3615 2215 3255 2215
 Wire Wire Line
-	2665 2350 2305 2350
+	3615 2315 3255 2315
 Wire Wire Line
-	2665 2450 2305 2450
+	3615 2515 3255 2515
 Wire Wire Line
-	2665 2550 2305 2550
+	3615 2615 3255 2615
 Wire Wire Line
-	2665 2750 2305 2750
+	3615 2715 3255 2715
 Wire Wire Line
-	2665 2850 2305 2850
+	3615 2815 3255 2815
 Wire Wire Line
-	2665 2950 2305 2950
+	3615 2915 3255 2915
 Wire Wire Line
-	2665 3050 2305 3050
+	3615 3015 3255 3015
 Wire Wire Line
-	2665 3150 2305 3150
+	3615 3115 3255 3115
 Wire Wire Line
-	2665 3250 2305 3250
+	3615 3215 3255 3215
 Wire Wire Line
-	2665 3350 2305 3350
+	3615 3315 3255 3315
 Wire Wire Line
-	2665 3450 2305 3450
+	3615 3415 3255 3415
 Wire Wire Line
-	2665 3550 2305 3550
+	3615 3515 3255 3515
 Wire Wire Line
-	2665 3650 2305 3650
+	3615 3615 3255 3615
 Wire Wire Line
-	2665 3750 2305 3750
+	3615 3715 3255 3715
 Wire Wire Line
-	2665 3850 2305 3850
+	3615 3815 3255 3815
 Wire Wire Line
-	2665 3950 2305 3950
+	3615 3915 3255 3915
 Wire Wire Line
-	2665 4050 2305 4050
+	3615 4015 3255 4015
 Wire Wire Line
-	2665 4150 2305 4150
+	3615 4115 3255 4115
 Wire Wire Line
-	2665 4250 2305 4250
+	3615 4215 3255 4215
 Wire Wire Line
-	2665 4350 2305 4350
-Wire Wire Line
-	2665 4450 2305 4450
-Wire Wire Line
-	2665 4550 2305 4550
-Text Label 2305 3350 0    50   ~ 0
+	3615 4315 3255 4315
+Text Label 3255 3115 0    50   ~ 0
 ~cas
-Text Label 2305 3250 0    50   ~ 0
+Text Label 3255 3015 0    50   ~ 0
 ~ras
-Text Label 8065 3135 0    50   ~ 0
-~cas
-Wire Wire Line
-	9575 3335 9650 3335
-Text Label 10280 2635 2    50   ~ 0
-~cas_int
-Text Label 10280 3335 2    50   ~ 0
-~cas_ext
-Wire Wire Line
-	8575 4035 8065 4035
-Wire Wire Line
-	8575 4135 8065 4135
-Text Label 8065 4035 0    50   ~ 0
-a14
-Text Label 8065 4135 0    50   ~ 0
-a15
-Wire Wire Line
-	8575 3335 8475 3335
-Wire Wire Line
-	8575 3435 8355 3435
-Wire Wire Line
-	8575 3535 8355 3535
-Wire Wire Line
-	8575 3635 8355 3635
-Wire Wire Line
-	8575 2635 8355 2635
-Wire Wire Line
-	8575 2735 8475 2735
-Wire Wire Line
-	8575 2835 8475 2835
-Wire Wire Line
-	8575 2935 8475 2935
-Wire Wire Line
-	8355 2635 8355 3435
-Wire Wire Line
-	8355 4500 9075 4500
-Connection ~ 9075 4500
-Wire Wire Line
-	9075 4500 9075 4435
-Connection ~ 8355 3435
-Wire Wire Line
-	8355 3435 8355 3535
-Connection ~ 8355 3535
-Wire Wire Line
-	8355 3535 8355 3635
-Connection ~ 8355 3635
-Wire Wire Line
-	8355 3635 8355 4500
-Wire Wire Line
-	8065 3135 8235 3135
-Wire Wire Line
-	8475 2200 9075 2200
-Connection ~ 9075 2200
-Wire Wire Line
-	9075 2200 9075 2335
-Connection ~ 8475 2735
-Wire Wire Line
-	8475 2735 8475 2200
-Connection ~ 8475 2835
-Wire Wire Line
-	8475 2835 8475 2735
-Wire Wire Line
-	8475 3335 8475 2935
-Connection ~ 8475 2935
-Wire Wire Line
-	8475 2935 8475 2835
-Wire Wire Line
-	8235 3135 8235 3835
-Wire Wire Line
-	8235 3835 8575 3835
-Connection ~ 8235 3135
-Wire Wire Line
-	8235 3135 8575 3135
-Text Label 2305 3750 0    50   ~ 0
+Text Label 3255 3515 0    50   ~ 0
 k0
-Text Label 2305 3850 0    50   ~ 0
+Text Label 3255 3615 0    50   ~ 0
 k1
-Text Label 2305 3950 0    50   ~ 0
+Text Label 3255 3715 0    50   ~ 0
 k2
-Text Label 2305 4050 0    50   ~ 0
+Text Label 3255 3815 0    50   ~ 0
 k3
-Text Label 2305 4150 0    50   ~ 0
+Text Label 3255 3915 0    50   ~ 0
 k4
-Text Label 2305 4250 0    50   ~ 0
+Text Label 3255 4015 0    50   ~ 0
 k5
-Text Label 2305 4350 0    50   ~ 0
+Text Label 3255 4115 0    50   ~ 0
 k6
-Text Label 2305 4450 0    50   ~ 0
+Text Label 3255 4215 0    50   ~ 0
 k7
-$Comp
-L Connector:Conn_01x01_Male J2
-U 1 1 5DDD013A
-P 8775 5615
-F 0 "J2" H 8883 5796 50  0000 C CNN
-F 1 "CAS_EXT_CONN" H 8883 5705 50  0000 C CNN
-F 2 "Fixteen:PinHeader_1x01_P2.54mm_Vertical" H 8775 5615 50  0001 C CNN
-F 3 "~" H 8775 5615 50  0001 C CNN
-	1    8775 5615
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8975 5615 9390 5615
-Text Label 9390 5615 2    50   ~ 0
-~cas_ext
-Wire Wire Line
-	5630 3350 5270 3350
-Text Label 5270 3350 0    50   ~ 0
-~cas_int
+	6580 3115 6220 3115
+Text Label 6220 3115 0    50   ~ 0
+~cas_16k
 $Comp
 L MOS_7360_TED:TED_SOCKET J1
 U 1 1 5DD740F5
-P 6380 3500
-F 0 "J1" H 6380 5015 50  0000 C CNN
-F 1 "TED_SOCKET" H 6380 4924 50  0000 C CNN
-F 2 "Fixteen:DIP-48_W15.24mm_LongPads_ModSilkS" H 6380 3500 50  0001 C CNN
-F 3 "DOCUMENTATION" H 6380 3500 50  0001 C CNN
-	1    6380 3500
+P 7330 3265
+F 0 "J1" H 7330 4780 50  0000 C CNN
+F 1 "TED_SOCKET" H 7330 4689 50  0000 C CNN
+F 2 "Fixteen:DIP-48_W15.24mm_LongPads_ModSilkS" H 7330 3265 50  0001 C CNN
+F 3 "DOCUMENTATION" H 7330 3265 50  0001 C CNN
+	1    7330 3265
 	1    0    0    -1  
 $EndComp
-Text Label 2305 2350 0    50   ~ 0
+Text Label 3255 2115 0    50   ~ 0
 a2
-Text Label 2305 2450 0    50   ~ 0
+Text Label 3255 2215 0    50   ~ 0
 a1
-Text Label 2305 2550 0    50   ~ 0
+Text Label 3255 2315 0    50   ~ 0
 a0
-Text Label 2305 2750 0    50   ~ 0
+Text Label 3255 2515 0    50   ~ 0
 cs0
-Text Label 2305 2850 0    50   ~ 0
+Text Label 3255 2615 0    50   ~ 0
 cs1
 $Comp
 L power:VCC #PWR01
 U 1 1 5DDE7ACD
-P 2125 1995
-F 0 "#PWR01" H 2125 1845 50  0001 C CNN
-F 1 "VCC" H 2142 2168 50  0000 C CNN
-F 2 "" H 2125 1995 50  0001 C CNN
-F 3 "" H 2125 1995 50  0001 C CNN
-	1    2125 1995
+P 3075 1760
+F 0 "#PWR01" H 3075 1610 50  0001 C CNN
+F 1 "VCC" H 3092 1933 50  0000 C CNN
+F 2 "" H 3075 1760 50  0001 C CNN
+F 3 "" H 3075 1760 50  0001 C CNN
+	1    3075 1760
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2125 1995 2125 2650
+	3075 1760 3075 2415
 Wire Wire Line
-	2125 2650 2665 2650
-Text Label 2305 2950 0    50   ~ 0
+	3075 2415 3615 2415
+Text Label 3255 2715 0    50   ~ 0
 r~w
-Text Label 2305 3050 0    50   ~ 0
+Text Label 3255 2815 0    50   ~ 0
 ~irq
-Text Label 2305 3150 0    50   ~ 0
+Text Label 3255 2915 0    50   ~ 0
 mux
-Text Label 2305 3450 0    50   ~ 0
+Text Label 3255 3215 0    50   ~ 0
 clkout
-Text Label 2305 3550 0    50   ~ 0
+Text Label 3255 3315 0    50   ~ 0
 color
-Text Label 2305 3650 0    50   ~ 0
+Text Label 3255 3415 0    50   ~ 0
 clkin
-Text Label 2305 4550 0    50   ~ 0
+Text Label 3255 4315 0    50   ~ 0
 lum
 $Comp
 L power:GND #PWR02
 U 1 1 5DDEB8B2
-P 2125 4915
-F 0 "#PWR02" H 2125 4665 50  0001 C CNN
-F 1 "GND" H 2130 4742 50  0000 C CNN
-F 2 "" H 2125 4915 50  0001 C CNN
-F 3 "" H 2125 4915 50  0001 C CNN
-	1    2125 4915
+P 3075 4680
+F 0 "#PWR02" H 3075 4430 50  0001 C CNN
+F 1 "GND" H 3080 4507 50  0000 C CNN
+F 2 "" H 3075 4680 50  0001 C CNN
+F 3 "" H 3075 4680 50  0001 C CNN
+	1    3075 4680
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2125 4915 2125 4650
+	3075 4680 3075 4415
 Wire Wire Line
-	2125 4650 2665 4650
-Text Label 4525 4650 2    50   ~ 0
-db0
-Text Label 4525 4550 2    50   ~ 0
-db1
-Text Label 4525 4450 2    50   ~ 0
-db2
-Text Label 4525 4350 2    50   ~ 0
-db3
-Text Label 4525 4250 2    50   ~ 0
-db4
-Text Label 4525 4150 2    50   ~ 0
-db5
-Text Label 4525 4050 2    50   ~ 0
-db6
-Text Label 4525 3950 2    50   ~ 0
-db7
-Text Label 4525 3850 2    50   ~ 0
+	3075 4415 3615 4415
+Text Label 5475 4415 2    50   ~ 0
+d0
+Text Label 5475 4315 2    50   ~ 0
+d1
+Text Label 5475 4215 2    50   ~ 0
+d2
+Text Label 5475 4115 2    50   ~ 0
+d3
+Text Label 5475 4015 2    50   ~ 0
+d4
+Text Label 5475 3915 2    50   ~ 0
+d5
+Text Label 5475 3815 2    50   ~ 0
+d6
+Text Label 5475 3715 2    50   ~ 0
+d7
+Text Label 5475 3615 2    50   ~ 0
 snd
-Text Label 4525 3750 2    50   ~ 0
+Text Label 5475 3515 2    50   ~ 0
 ba
-Text Label 4525 3650 2    50   ~ 0
+Text Label 5475 3415 2    50   ~ 0
 aec
-Text Label 4525 3550 2    50   ~ 0
+Text Label 5475 3315 2    50   ~ 0
 a15
-Text Label 4525 3450 2    50   ~ 0
+Text Label 5475 3215 2    50   ~ 0
 a14
-Text Label 4525 3350 2    50   ~ 0
+Text Label 5475 3115 2    50   ~ 0
 a13
-Text Label 4525 3250 2    50   ~ 0
+Text Label 5475 3015 2    50   ~ 0
 a12
-Text Label 4525 3150 2    50   ~ 0
+Text Label 5475 2915 2    50   ~ 0
 a11
-Text Label 4525 3050 2    50   ~ 0
+Text Label 5475 2815 2    50   ~ 0
 a10
-Text Label 4525 2950 2    50   ~ 0
+Text Label 5475 2715 2    50   ~ 0
 a9
-Text Label 4525 2850 2    50   ~ 0
+Text Label 5475 2615 2    50   ~ 0
 a8
-Text Label 4525 2750 2    50   ~ 0
+Text Label 5475 2515 2    50   ~ 0
 a7
-Text Label 4525 2650 2    50   ~ 0
+Text Label 5475 2415 2    50   ~ 0
 a6
-Text Label 4525 2550 2    50   ~ 0
+Text Label 5475 2315 2    50   ~ 0
 a5
-Text Label 4525 2450 2    50   ~ 0
+Text Label 5475 2215 2    50   ~ 0
 a4
-Text Label 4525 2350 2    50   ~ 0
+Text Label 5475 2115 2    50   ~ 0
 a3
 Wire Wire Line
-	4525 4650 4165 4650
+	5475 4415 5115 4415
 Wire Wire Line
-	4525 4550 4165 4550
+	5475 4315 5115 4315
 Wire Wire Line
-	4525 4450 4165 4450
+	5475 4215 5115 4215
 Wire Wire Line
-	4525 4350 4165 4350
+	5475 4115 5115 4115
 Wire Wire Line
-	4525 4250 4165 4250
+	5475 4015 5115 4015
 Wire Wire Line
-	4525 4150 4165 4150
+	5475 3915 5115 3915
 Wire Wire Line
-	4525 4050 4165 4050
+	5475 3815 5115 3815
 Wire Wire Line
-	4525 3950 4165 3950
+	5475 3715 5115 3715
 Wire Wire Line
-	4525 3850 4165 3850
+	5475 3615 5115 3615
 Wire Wire Line
-	4525 3750 4165 3750
+	5475 3515 5115 3515
 Wire Wire Line
-	4525 3650 4165 3650
+	5475 3415 5115 3415
 Wire Wire Line
-	4525 3550 4165 3550
+	5475 3315 5115 3315
 Wire Wire Line
-	4525 3450 4165 3450
+	5475 3215 5115 3215
 Wire Wire Line
-	4525 3350 4165 3350
+	5475 3115 5115 3115
 Wire Wire Line
-	4525 3250 4165 3250
+	5475 3015 5115 3015
 Wire Wire Line
-	4525 3150 4165 3150
+	5475 2915 5115 2915
 Wire Wire Line
-	4525 3050 4165 3050
+	5475 2815 5115 2815
 Wire Wire Line
-	4525 2950 4165 2950
+	5475 2715 5115 2715
 Wire Wire Line
-	4525 2850 4165 2850
+	5475 2615 5115 2615
 Wire Wire Line
-	4525 2750 4165 2750
+	5475 2515 5115 2515
 Wire Wire Line
-	4525 2650 4165 2650
+	5475 2415 5115 2415
 Wire Wire Line
-	4525 2550 4165 2550
+	5475 2315 5115 2315
 Wire Wire Line
-	4525 2450 4165 2450
+	5475 2215 5115 2215
 Wire Wire Line
-	4525 2350 4165 2350
+	5475 2115 5115 2115
 $Comp
 L MOS_7360_TED:MOS_7360_TED U1
 U 1 1 5DD71E0F
-P 3415 3500
-F 0 "U1" H 3415 5015 50  0000 C CNN
-F 1 "MOS_7360_TED" H 3415 4924 50  0000 C CNN
-F 2 "Package_DIP:DIP-48_W15.24mm_Socket_LongPads" H 3415 3500 50  0001 C CNN
-F 3 "DOCUMENTATION" H 3415 3500 50  0001 C CNN
-	1    3415 3500
+P 4365 3265
+F 0 "U1" H 4365 4780 50  0000 C CNN
+F 1 "MOS_7360_TED" H 4365 4689 50  0000 C CNN
+F 2 "Package_DIP:DIP-48_W15.24mm_Socket_LongPads" H 4365 3265 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4365 3265 50  0001 C CNN
+	1    4365 3265
 	1    0    0    -1  
 $EndComp
-Text Label 7490 4650 2    50   ~ 0
-db0
-Text Label 7490 4550 2    50   ~ 0
-db1
-Text Label 7490 4450 2    50   ~ 0
-db2
-Text Label 7490 4350 2    50   ~ 0
-db3
-Text Label 7490 4250 2    50   ~ 0
-db4
-Text Label 7490 4150 2    50   ~ 0
-db5
-Text Label 7490 4050 2    50   ~ 0
-db6
-Text Label 7490 3950 2    50   ~ 0
-db7
-Text Label 7490 3850 2    50   ~ 0
+Text Label 8440 4415 2    50   ~ 0
+d0
+Text Label 8440 4315 2    50   ~ 0
+d1
+Text Label 8440 4215 2    50   ~ 0
+d2
+Text Label 8440 4115 2    50   ~ 0
+d3
+Text Label 8440 4015 2    50   ~ 0
+d4
+Text Label 8440 3915 2    50   ~ 0
+d5
+Text Label 8440 3815 2    50   ~ 0
+d6
+Text Label 8440 3715 2    50   ~ 0
+d7
+Text Label 8440 3615 2    50   ~ 0
 snd
-Text Label 7490 3750 2    50   ~ 0
+Text Label 8440 3515 2    50   ~ 0
 ba
-Text Label 7490 3650 2    50   ~ 0
+Text Label 8440 3415 2    50   ~ 0
 aec
-Text Label 7490 3550 2    50   ~ 0
+Text Label 8440 3315 2    50   ~ 0
 a15
-Text Label 7490 3450 2    50   ~ 0
+Text Label 8440 3215 2    50   ~ 0
 a14
-Text Label 7490 3350 2    50   ~ 0
+Text Label 8440 3115 2    50   ~ 0
 a13
-Text Label 7490 3250 2    50   ~ 0
+Text Label 8440 3015 2    50   ~ 0
 a12
-Text Label 7490 3150 2    50   ~ 0
+Text Label 8440 2915 2    50   ~ 0
 a11
-Text Label 7490 3050 2    50   ~ 0
+Text Label 8440 2815 2    50   ~ 0
 a10
-Text Label 7490 2950 2    50   ~ 0
+Text Label 8440 2715 2    50   ~ 0
 a9
-Text Label 7490 2850 2    50   ~ 0
+Text Label 8440 2615 2    50   ~ 0
 a8
-Text Label 7490 2750 2    50   ~ 0
+Text Label 8440 2515 2    50   ~ 0
 a7
-Text Label 7490 2650 2    50   ~ 0
+Text Label 8440 2415 2    50   ~ 0
 a6
-Text Label 7490 2550 2    50   ~ 0
+Text Label 8440 2315 2    50   ~ 0
 a5
-Text Label 7490 2450 2    50   ~ 0
+Text Label 8440 2215 2    50   ~ 0
 a4
-Text Label 7490 2350 2    50   ~ 0
+Text Label 8440 2115 2    50   ~ 0
 a3
 Wire Wire Line
-	7490 4650 7130 4650
+	8440 4415 8080 4415
 Wire Wire Line
-	7490 4550 7130 4550
+	8440 4315 8080 4315
 Wire Wire Line
-	7490 4450 7130 4450
+	8440 4215 8080 4215
 Wire Wire Line
-	7490 4350 7130 4350
+	8440 4115 8080 4115
 Wire Wire Line
-	7490 4250 7130 4250
+	8440 4015 8080 4015
 Wire Wire Line
-	7490 4150 7130 4150
+	8440 3915 8080 3915
 Wire Wire Line
-	7490 4050 7130 4050
+	8440 3815 8080 3815
 Wire Wire Line
-	7490 3950 7130 3950
+	8440 3715 8080 3715
 Wire Wire Line
-	7490 3850 7130 3850
+	8440 3615 8080 3615
 Wire Wire Line
-	7490 3750 7130 3750
+	8440 3515 8080 3515
 Wire Wire Line
-	7490 3650 7130 3650
+	8440 3415 8080 3415
 Wire Wire Line
-	7490 3550 7130 3550
+	8440 3315 8080 3315
 Wire Wire Line
-	7490 3450 7130 3450
+	8440 3215 8080 3215
 Wire Wire Line
-	7490 3350 7130 3350
+	8440 3115 8080 3115
 Wire Wire Line
-	7490 3250 7130 3250
+	8440 3015 8080 3015
 Wire Wire Line
-	7490 3150 7130 3150
+	8440 2915 8080 2915
 Wire Wire Line
-	7490 3050 7130 3050
+	8440 2815 8080 2815
 Wire Wire Line
-	7490 2950 7130 2950
+	8440 2715 8080 2715
 Wire Wire Line
-	7490 2850 7130 2850
+	8440 2615 8080 2615
 Wire Wire Line
-	7490 2750 7130 2750
+	8440 2515 8080 2515
 Wire Wire Line
-	7490 2650 7130 2650
+	8440 2415 8080 2415
 Wire Wire Line
-	7490 2550 7130 2550
+	8440 2315 8080 2315
 Wire Wire Line
-	7490 2450 7130 2450
+	8440 2215 8080 2215
 Wire Wire Line
-	7490 2350 7130 2350
+	8440 2115 8080 2115
 Wire Wire Line
-	5630 2350 5270 2350
+	6580 2115 6220 2115
 Wire Wire Line
-	5630 2450 5270 2450
+	6580 2215 6220 2215
 Wire Wire Line
-	5630 2550 5270 2550
+	6580 2315 6220 2315
 Wire Wire Line
-	5630 2750 5270 2750
+	6580 2515 6220 2515
 Wire Wire Line
-	5630 2850 5270 2850
+	6580 2615 6220 2615
 Wire Wire Line
-	5630 2950 5270 2950
+	6580 2715 6220 2715
 Wire Wire Line
-	5630 3050 5270 3050
+	6580 2815 6220 2815
 Wire Wire Line
-	5630 3150 5270 3150
+	6580 2915 6220 2915
 Wire Wire Line
-	5630 3250 5270 3250
+	6580 3015 6220 3015
 Wire Wire Line
-	5630 3450 5270 3450
+	6580 3215 6220 3215
 Wire Wire Line
-	5630 3550 5270 3550
+	6580 3315 6220 3315
 Wire Wire Line
-	5630 3650 5270 3650
+	6580 3415 6220 3415
 Wire Wire Line
-	5630 3750 5270 3750
+	6580 3515 6220 3515
 Wire Wire Line
-	5630 3850 5270 3850
+	6580 3615 6220 3615
 Wire Wire Line
-	5630 3950 5270 3950
+	6580 3715 6220 3715
 Wire Wire Line
-	5630 4050 5270 4050
+	6580 3815 6220 3815
 Wire Wire Line
-	5630 4150 5270 4150
+	6580 3915 6220 3915
 Wire Wire Line
-	5630 4250 5270 4250
+	6580 4015 6220 4015
 Wire Wire Line
-	5630 4350 5270 4350
+	6580 4115 6220 4115
 Wire Wire Line
-	5630 4450 5270 4450
+	6580 4215 6220 4215
 Wire Wire Line
-	5630 4550 5270 4550
-Text Label 5270 3250 0    50   ~ 0
+	6580 4315 6220 4315
+Text Label 6220 3015 0    50   ~ 0
 ~ras
-Text Label 5270 3750 0    50   ~ 0
+Text Label 6220 3515 0    50   ~ 0
 k0
-Text Label 5270 3850 0    50   ~ 0
+Text Label 6220 3615 0    50   ~ 0
 k1
-Text Label 5270 3950 0    50   ~ 0
+Text Label 6220 3715 0    50   ~ 0
 k2
-Text Label 5270 4050 0    50   ~ 0
+Text Label 6220 3815 0    50   ~ 0
 k3
-Text Label 5270 4150 0    50   ~ 0
+Text Label 6220 3915 0    50   ~ 0
 k4
-Text Label 5270 4250 0    50   ~ 0
+Text Label 6220 4015 0    50   ~ 0
 k5
-Text Label 5270 4350 0    50   ~ 0
+Text Label 6220 4115 0    50   ~ 0
 k6
-Text Label 5270 4450 0    50   ~ 0
+Text Label 6220 4215 0    50   ~ 0
 k7
-Text Label 5270 2350 0    50   ~ 0
+Text Label 6220 2115 0    50   ~ 0
 a2
-Text Label 5270 2450 0    50   ~ 0
+Text Label 6220 2215 0    50   ~ 0
 a1
-Text Label 5270 2550 0    50   ~ 0
+Text Label 6220 2315 0    50   ~ 0
 a0
-Text Label 5270 2750 0    50   ~ 0
+Text Label 6220 2515 0    50   ~ 0
 cs0
-Text Label 5270 2850 0    50   ~ 0
+Text Label 6220 2615 0    50   ~ 0
 cs1
 $Comp
 L power:VCC #PWR03
 U 1 1 5DE00D21
-P 5090 1995
-F 0 "#PWR03" H 5090 1845 50  0001 C CNN
-F 1 "VCC" H 5107 2168 50  0000 C CNN
-F 2 "" H 5090 1995 50  0001 C CNN
-F 3 "" H 5090 1995 50  0001 C CNN
-	1    5090 1995
+P 6040 1760
+F 0 "#PWR03" H 6040 1610 50  0001 C CNN
+F 1 "VCC" H 6057 1933 50  0000 C CNN
+F 2 "" H 6040 1760 50  0001 C CNN
+F 3 "" H 6040 1760 50  0001 C CNN
+	1    6040 1760
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5090 1995 5090 2650
+	6040 1760 6040 2415
 Wire Wire Line
-	5090 2650 5630 2650
-Text Label 5270 2950 0    50   ~ 0
+	6040 2415 6580 2415
+Text Label 6220 2715 0    50   ~ 0
 r~w
-Text Label 5270 3050 0    50   ~ 0
+Text Label 6220 2815 0    50   ~ 0
 ~irq
-Text Label 5270 3150 0    50   ~ 0
+Text Label 6220 2915 0    50   ~ 0
 mux
-Text Label 5270 3450 0    50   ~ 0
+Text Label 6220 3215 0    50   ~ 0
 clkout
-Text Label 5270 3550 0    50   ~ 0
+Text Label 6220 3315 0    50   ~ 0
 color
-Text Label 5270 3650 0    50   ~ 0
+Text Label 6220 3415 0    50   ~ 0
 clkin
-Text Label 5270 4550 0    50   ~ 0
+Text Label 6220 4315 0    50   ~ 0
 lum
 $Comp
 L power:GND #PWR04
 U 1 1 5DE00D34
-P 5090 4915
-F 0 "#PWR04" H 5090 4665 50  0001 C CNN
-F 1 "GND" H 5095 4742 50  0000 C CNN
-F 2 "" H 5090 4915 50  0001 C CNN
-F 3 "" H 5090 4915 50  0001 C CNN
-	1    5090 4915
+P 6040 4680
+F 0 "#PWR04" H 6040 4430 50  0001 C CNN
+F 1 "GND" H 6045 4507 50  0000 C CNN
+F 2 "" H 6040 4680 50  0001 C CNN
+F 3 "" H 6040 4680 50  0001 C CNN
+	1    6040 4680
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5090 4915 5090 4650
+	6040 4680 6040 4415
 Wire Wire Line
-	5090 4650 5630 4650
-$Comp
-L Device:R R1
-U 1 1 5DE3AE6A
-P 9790 2415
-F 0 "R1" H 9860 2461 50  0000 L CNN
-F 1 "10k" H 9860 2370 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9720 2415 50  0001 C CNN
-F 3 "~" H 9790 2415 50  0001 C CNN
-	1    9790 2415
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5DE3BF08
-P 9650 3060
-F 0 "R2" H 9720 3106 50  0000 L CNN
-F 1 "10k" H 9720 3015 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9580 3060 50  0001 C CNN
-F 3 "~" H 9650 3060 50  0001 C CNN
-	1    9650 3060
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9575 2635 9790 2635
-Wire Wire Line
-	9790 2565 9790 2635
-Connection ~ 9790 2635
-Wire Wire Line
-	9790 2635 10280 2635
-Wire Wire Line
-	9075 2200 9650 2200
-Wire Wire Line
-	9790 2200 9790 2265
-Wire Wire Line
-	9650 3210 9650 3335
-Connection ~ 9650 3335
-Wire Wire Line
-	9650 3335 10280 3335
-Wire Wire Line
-	9650 2910 9650 2200
-Connection ~ 9650 2200
-Wire Wire Line
-	9650 2200 9790 2200
-$Comp
-L power:VCC #PWR07
-U 1 1 5DED441F
-P 6340 6480
-F 0 "#PWR07" H 6340 6330 50  0001 C CNN
-F 1 "VCC" H 6357 6653 50  0000 C CNN
-F 2 "" H 6340 6480 50  0001 C CNN
-F 3 "" H 6340 6480 50  0001 C CNN
-	1    6340 6480
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 5DED49CF
-P 6340 6970
-F 0 "#PWR08" H 6340 6720 50  0001 C CNN
-F 1 "GND" H 6345 6797 50  0000 C CNN
-F 2 "" H 6340 6970 50  0001 C CNN
-F 3 "" H 6340 6970 50  0001 C CNN
-	1    6340 6970
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C1
-U 1 1 5DED5243
-P 6340 6720
-F 0 "C1" H 6455 6766 50  0000 L CNN
-F 1 "100n" H 6455 6675 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6378 6570 50  0001 C CNN
-F 3 "~" H 6340 6720 50  0001 C CNN
-	1    6340 6720
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6340 6480 6340 6570
-Wire Wire Line
-	6340 6970 6340 6870
+	6040 4415 6580 4415
 $Comp
 L Connector:Conn_01x01_Male J99
 U 1 1 5DEFE793
@@ -681,10 +476,10 @@ F 3 "~" H 11060 6350 50  0001 C CNN
 $EndComp
 NoConn ~ 11060 6150
 $Comp
-L DT1042:DT1042 U3
+L DT1042:DT1042 U6
 U 1 1 5DF30E82
 P 1965 6700
-F 0 "U3" H 2293 6746 50  0000 L CNN
+F 0 "U6" H 2293 6746 50  0000 L CNN
 F 1 "DT1042" H 2293 6655 50  0000 L CNN
 F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 1965 6700 50  0001 C CNN
 F 3 "" H 1965 6700 50  0001 C CNN
@@ -742,7 +537,7 @@ k6
 Text Label 2705 6850 0    50   ~ 0
 k7
 Text Notes 2215 5815 0    50   ~ 0
-OPTIONAL ESD PROTECTION\nFOR JOYSTICK/KEYBOARD LINES
+ESD PROTECTION FOR\nJOYSTICK/KEYBOARD LINES
 Wire Wire Line
 	3065 6850 2705 6850
 Wire Wire Line
@@ -778,14 +573,184 @@ F 3 "" H 3665 6160 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DT1042:DT1042 U4
+L DT1042:DT1042 U7
 U 1 1 5DF319FC
 P 3665 6700
-F 0 "U4" H 3993 6746 50  0000 L CNN
+F 0 "U7" H 3993 6746 50  0000 L CNN
 F 1 "DT1042" H 3993 6655 50  0000 L CNN
 F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 3665 6700 50  0001 C CNN
 F 3 "" H 3665 6700 50  0001 C CNN
 	1    3665 6700
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 9330 840  1205 740 
+U 5FC6EF04
+F0 "64K RAM Expansion" 50
+F1 "ram.sch" 50
+$EndSheet
+Wire Wire Line
+	9700 3215 9385 3215
+Wire Wire Line
+	9700 3315 9580 3315
+Text Label 9385 3215 0    50   ~ 0
+~cas
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 5FDA0415
+P 9900 3215
+F 0 "J2" H 9872 3239 50  0000 R CNN
+F 1 "RAM_SELECTOR" H 9872 3148 50  0000 R CNN
+F 2 "Fixteen:Pin_Header_Straight_1x03-ModSilkS" H 9900 3215 50  0001 C CNN
+F 3 "~" H 9900 3215 50  0001 C CNN
+	1    9900 3215
+	-1   0    0    -1  
+$EndComp
+Text Label 8865 3115 0    50   ~ 0
+~cas_16k
+Text GLabel 9010 3455 2    50   Output ~ 0
+~CAS_64K
+Wire Wire Line
+	9385 3710 9700 3710
+Wire Wire Line
+	9385 3910 9700 3910
+Wire Wire Line
+	9385 4110 9700 4110
+Text Label 9385 3910 0    50   ~ 0
+r~w
+Text Label 9385 4110 0    50   ~ 0
+mux
+Text Label 9385 3710 0    50   ~ 0
+~ras
+Text GLabel 9700 3710 2    50   Output ~ 0
+~RAS
+Text GLabel 9700 3910 2    50   Output ~ 0
+R_~W
+Text GLabel 9700 4110 2    50   Output ~ 0
+SEL
+Entry Wire Line
+	8440 2115 8540 2215
+Entry Wire Line
+	8440 2215 8540 2315
+Entry Wire Line
+	8440 2315 8540 2415
+Entry Wire Line
+	8440 2415 8540 2515
+Entry Wire Line
+	8440 2515 8540 2615
+Entry Wire Line
+	8440 2615 8540 2715
+Entry Wire Line
+	8440 2715 8540 2815
+Entry Wire Line
+	8440 2815 8540 2915
+Entry Wire Line
+	8440 2915 8540 3015
+Entry Wire Line
+	8440 3015 8540 3115
+Entry Wire Line
+	8440 3115 8540 3215
+Entry Wire Line
+	8440 3215 8540 3315
+Entry Wire Line
+	8440 3315 8540 3415
+Entry Wire Line
+	6120 2015 6220 2115
+Entry Wire Line
+	6120 2115 6220 2215
+Entry Wire Line
+	6120 2215 6220 2315
+Wire Bus Line
+	6120 1505 8540 1505
+Wire Bus Line
+	8540 1505 8740 1505
+Connection ~ 8540 1505
+Text GLabel 8740 1505 2    50   Output ~ 0
+a[0..15]
+Entry Wire Line
+	8440 3715 8540 3815
+Entry Wire Line
+	8440 3815 8540 3915
+Entry Wire Line
+	8440 3915 8540 4015
+Entry Wire Line
+	8440 4015 8540 4115
+Entry Wire Line
+	8440 4115 8540 4215
+Entry Wire Line
+	8440 4215 8540 4315
+Entry Wire Line
+	8440 4315 8540 4415
+Entry Wire Line
+	8440 4415 8540 4515
+Wire Bus Line
+	8540 4730 8740 4730
+Text GLabel 8735 4730 2    50   BiDi ~ 0
+d[0..7]
+$Comp
+L Device:R R2
+U 1 1 5FFE3D84
+P 9580 2840
+F 0 "R2" H 9650 2886 50  0000 L CNN
+F 1 "10k" H 9650 2795 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9510 2840 50  0001 C CNN
+F 3 "~" H 9580 2840 50  0001 C CNN
+	1    9580 2840
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FFE4754
+P 9290 2840
+F 0 "R1" H 9360 2886 50  0000 L CNN
+F 1 "10k" H 9360 2795 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9220 2840 50  0001 C CNN
+F 3 "~" H 9290 2840 50  0001 C CNN
+	1    9290 2840
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8865 3115 9290 3115
+Wire Wire Line
+	9290 2990 9290 3115
+Connection ~ 9290 3115
+Wire Wire Line
+	9290 3115 9700 3115
+Wire Wire Line
+	9580 2990 9580 3315
+Wire Wire Line
+	9290 2690 9290 2585
+Wire Wire Line
+	9290 2585 9435 2585
+Wire Wire Line
+	9580 2585 9580 2690
+Wire Wire Line
+	9435 2585 9435 2500
+Connection ~ 9435 2585
+Wire Wire Line
+	9435 2585 9580 2585
+$Comp
+L power:VCC #PWR0101
+U 1 1 60012433
+P 9435 2500
+F 0 "#PWR0101" H 9435 2350 50  0001 C CNN
+F 1 "VCC" H 9452 2673 50  0000 C CNN
+F 2 "" H 9435 2500 50  0001 C CNN
+F 3 "" H 9435 2500 50  0001 C CNN
+	1    9435 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8865 3315 9580 3315
+Wire Wire Line
+	8865 3315 8865 3455
+Wire Wire Line
+	8865 3455 9010 3455
+Connection ~ 9580 3315
+Wire Bus Line
+	6120 1505 6120 2215
+Wire Bus Line
+	8540 3815 8540 4730
+Wire Bus Line
+	8540 1505 8540 3415
 $EndSCHEMATC
