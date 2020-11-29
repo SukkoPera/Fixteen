@@ -1,5 +1,6 @@
 *.bak
-*.sch-bak
-*.kicad_pcb-bak
+*.*-bak
 *.bck
 gerbers/
+RELEASES/
+fp-info-cache
