@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "Fixteen"
-Date "2020-11-28"
-Rev "2git"
+Date "2020-12-21"
+Rev "3git"
 Comp "SukkoPera"
 Comment1 "Licensed under CERN OHL v.1.2"
 Comment2 ""
@@ -182,33 +182,33 @@ Entry Wire Line
 Entry Wire Line
 	1930 4655 2030 4755
 Text Label 2230 2205 0    60   ~ 0
-a9
+a15
 Text Label 2230 2305 0    60   ~ 0
-a1
-Text Label 2230 2455 0    60   ~ 0
-a11
-Text Label 2230 2555 0    60   ~ 0
 a0
+Text Label 2230 2455 0    60   ~ 0
+a8
+Text Label 2230 2555 0    60   ~ 0
+a1
 Text Label 2230 2705 0    60   ~ 0
-a10
+a9
 Text Label 2230 2805 0    60   ~ 0
 a2
 Text Label 2230 2955 0    60   ~ 0
-a8
+a10
 Text Label 2230 3055 0    60   ~ 0
 a3
 Text Label 2230 3905 0    60   ~ 0
-a13
+a11
 Text Label 2230 4155 0    60   ~ 0
-a14
-Text Label 2230 4405 0    60   ~ 0
-a15
-Text Label 2230 4505 0    60   ~ 0
-a7
-Text Label 2230 4655 0    60   ~ 0
 a12
+Text Label 2230 4405 0    60   ~ 0
+a13
+Text Label 2230 4505 0    60   ~ 0
+a6
+Text Label 2230 4655 0    60   ~ 0
+a14
 Text Label 2230 4755 0    60   ~ 0
-a4
+a7
 Entry Wire Line
 	4580 2255 4680 2355
 Entry Wire Line
@@ -232,19 +232,19 @@ Entry Wire Line
 Text Label 4130 2255 0    60   ~ 0
 m0
 Text Label 4130 2505 0    60   ~ 0
-m5
-Text Label 4130 2755 0    60   ~ 0
-m4
-Text Label 4130 3005 0    60   ~ 0
-m6
-Text Label 4130 3955 0    60   ~ 0
 m1
-Text Label 4130 4205 0    60   ~ 0
-m3
-Text Label 4130 4455 0    60   ~ 0
-m7
-Text Label 4130 4705 0    60   ~ 0
+Text Label 4130 2755 0    60   ~ 0
 m2
+Text Label 4130 3005 0    60   ~ 0
+m3
+Text Label 4130 3955 0    60   ~ 0
+m4
+Text Label 4130 4205 0    60   ~ 0
+m5
+Text Label 4130 4455 0    60   ~ 0
+m6
+Text Label 4130 4705 0    60   ~ 0
+m7
 Text Label 6935 5555 0    60   ~ 0
 MultiplexedAddressBus
 Text Label 7770 5705 0    60   ~ 0
@@ -682,9 +682,9 @@ Wire Wire Line
 	7680 4255 7680 2555
 Connection ~ 7680 2555
 Text Label 2230 4255 0    60   ~ 0
-a6
-Text Label 2230 4005 0    60   ~ 0
 a5
+Text Label 2230 4005 0    60   ~ 0
+a4
 Wire Bus Line
 	5180 2355 5180 5705
 Wire Bus Line
