@@ -19,7 +19,7 @@ U2 and U3 can either be 74x157 or 74x257, as they are permanently enabled. I rec
 
 The actual 4464 RAM chips have been out of production for ages but they can be bought supercheap on AliExpress & similar sites, making this board very affordable to build for everyone. Let's say 10€? So get them second-hand and be happy :).
 
-U6 and U7 are not related to the RAM expansion. They rather provide protection for the TED from ESD (Electrostatic Discharge) coming in through the joystick ports (which is of the most common causes of TED failures). I had some space on the board and thought they would be a nice addition but they are small components, so just don't bother soldering them if you don't feel comfortable doing it.
+U6 and U7 are not related to the RAM expansion and are optional: they provide protection for the TED from ESD (Electrostatic Discharge) coming in through the joystick ports (which is one of the most common causes of TED failures). I had some space on the board and thought they would be a nice addition but they are small components, so just don't bother soldering them if you don't feel comfortable doing it.
 
 You can connect a switch to U2 if you want to be able to switch back to 16 kB without having to open the case again. Honestly I just wouldn't bother, there is virtually no software that requires no more than 16 kB and it should just be fixed if this is really the case.
 
